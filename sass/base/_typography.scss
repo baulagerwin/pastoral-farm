@@ -1,0 +1,67 @@
+body {
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: $first-color;
+}
+
+h1 {
+  color: $light-color;
+  font-size: 5rem;
+
+  @include respond(laptop-small) {
+    font-size: 4rem;
+  }
+
+  @include respond(tablet) {
+    font-size: 3rem;
+  }
+
+  @include respond(phone-large) {
+    font-size: 4rem;
+  }
+
+  @include respond(phone-medium) {
+    font-size: 3.8rem;
+  }
+
+  @include respond(phone-small) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+
+  &::after {
+    content: "";
+    margin: 0 auto;
+    height: 0.2rem;
+    width: 10rem;
+    background-color: $first-color;
+    display: block;
+    margin-top: 2rem;
+  }
+
+  @include respond(laptop-small) {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+
+    &::after {
+      content: "";
+      width: 8rem;
+      margin-top: 1rem;
+    }
+  }
+
+  @include respond(tablet) {
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+  }
+
+  @include respond(phone-large) {
+    margin-bottom: 1.4rem;
+  }
+}

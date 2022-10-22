@@ -1,0 +1,110 @@
+.header {
+  max-width: 100%;
+
+  @include clearfix;
+
+  [class^="colH-"] {
+    float: left;
+    height: 60rem;
+
+    @include respond(laptop-small) {
+      height: 55rem;
+    }
+
+    @include respond(tablet) {
+      height: 45rem;
+    }
+
+    @include respond(phone-large) {
+      height: 40rem;
+    }
+  }
+
+  .colH-1-of-2 {
+    width: calc(100% / 2);
+
+    @include respond(phone-large) {
+      width: 100% !important;
+    }
+  }
+
+  &__intro-text {
+    background-color: $second-color;
+
+    &--container {
+      width: 92%;
+      margin-left: 4%;
+      margin-top: 14rem;
+
+      @include respond(laptop-small) {
+        margin-top: 12rem;
+      }
+
+      @include respond(tablet) {
+        margin-top: 10rem;
+      }
+
+      @include respond(tablet) {
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 9rem;
+      }
+
+      @include respond(phone-large) {
+        margin-top: 6rem;
+        width: 92%;
+        margin-left: 4%;
+      }
+
+      @include respond(phone-medium) {
+        margin-top: 4rem;
+      }
+
+      @include respond(phone-small) {
+        margin-top: 8rem;
+      }
+    }
+
+    &--description {
+      color: $light-color;
+      font-size: 2rem;
+      margin-bottom: 4rem;
+
+      @include respond(laptop-small) {
+        font-size: 1.8rem;
+        margin-bottom: 2.5rem;
+      }
+
+      @include respond(tablet) {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+      }
+
+      @include respond(tablet) {
+        margin-bottom: 3rem;
+      }
+
+      @include respond(phone-large) {
+        font-size: 2rem;
+      }
+
+      @include respond(phone-medium) {
+        font-size: 1.8rem;
+      }
+
+      @include respond(phone-small) {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

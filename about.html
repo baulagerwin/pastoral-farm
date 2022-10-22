@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation-bar">
+        <div class="navigation-bar__wrapper">
+          <div class="navigation-bar__title">
+            <span class="navigation-bar__title--company">Pastoral Farm</span>
+            <span class="navigation-bar__title--address"
+              >10 Street Road, City, 10100 USA</span
+            >
+          </div>
+          <div class="navigation-bar__links">
+            <div class="navigation-bar__social-links">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <input
+              type="checkbox"
+              id="toggle"
+              class="navigation-bar__checkbox"
+            />
+            <ul class="navigation-bar__lists">
+              <li class="navigation-bar__list">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="navigation-bar__list current">
+                <a href="about.html">About</a>
+              </li>
+              <li class="navigation-bar__list">
+                <a href="recipes.html">Recipes</a>
+              </li>
+              <li class="navigation-bar__list">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navigation-bar__hamburger-menu">
+          <label for="toggle">&#9776;</label>
+        </div>
+      </nav>
+    </header>
+
+    <div class="section-about">
+      <div class="section-about__text--title u__marginBottom--large">
+        About
+      </div>
+      <div class="section-about__text--description u__marginBottom--large">
+        We produce locally farmed organic vegetables that are affordable,
+        seasonal, and as fresh as possible.
+      </div>
+      <div class="section-about__image-container">
+        <img src="./img/about.jpg" alt="about-photo" />
+      </div>
+    </div>
+
+    <section class="section-testimonials">
+      <div class="section-testimonials__container">
+        <div
+          class="section-testimonials--title u__center--text u__marginBottom--large"
+        >
+          What Our Customers Says
+        </div>
+        <div class="row">
+          <div class="colT-1-of-3">
+            <div
+              class="section-testimonials--summary u__center--text u__marginBottom--large"
+            >
+              <blockquote>
+                "Excellent Service"
+              </blockquote>
+            </div>
+            <div
+              class="section-testimonials--full u__center--text u__marginBottom--small"
+            >
+              Their service is brilliant! I really hope some of them are now
+              using your service.
+            </div>
+            <div class="section-testimonials--customer u__center--text">
+              Mia
+            </div>
+          </div>
+          <div class="colT-1-of-3">
+            <div
+              class="section-testimonials--summary u__center--text u__marginBottom--large"
+            >
+              <blockquote>
+                "Love the flexibility"
+              </blockquote>
+            </div>
+            <div
+              class="section-testimonials--full u__center--text u__marginBottom--small"
+            >
+              We are very happy with the box and we value that we can have the
+              standard box or choose our own.
+            </div>
+            <div class="section-testimonials--customer u__center--text">
+              Jeric
+            </div>
+          </div>
+          <div class="colT-1-of-3">
+            <div
+              class="section-testimonials--summary u__center--text u__marginBottom--large"
+            >
+              <blockquote>
+                "Fantastic Quality"
+              </blockquote>
+            </div>
+            <div
+              class="section-testimonials--full u__center--text u__marginBottom--small"
+            >
+              I’m really appreciating the quality and presentation. The flavour
+              of the veg is outstanding.
+            </div>
+            <div class="section-testimonials--customer u__center--text">
+              Gerwin
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-get-in-touch">
+      <div
+        class="section-get-in-touch--title u__center--text u__marginBottom--large"
+      >
+        Let's grow something together
+      </div>
+      <div class="section-get-in-touch__button-container u__center--text">
+        <a href="#" class="btn-full">Get in touch</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__firstColumn">
+        <a href="#" class="footer__firstColumn--company-name">
+          Pastoral Farm
+        </a>
+      </div>
+      <div class="footer__secondColumn">
+        <ul class="footer__secondColumn--list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>

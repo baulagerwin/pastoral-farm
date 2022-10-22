@@ -1,0 +1,97 @@
+.section-recipes {
+  padding: 6rem 0;
+
+  @include respond(phone-large) {
+    padding: 4rem 0;
+  }
+
+  @include respond(phone-small) {
+    padding: 2rem 0;
+  }
+
+  &__container {
+    max-width: 80rem;
+    margin: 0 auto;
+
+    @include respond(phone-large) {
+      padding: 0 4rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    @include clearfix;
+
+    [class^="colR-"] {
+      float: left;
+
+      &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+      }
+
+      @include respond(phone-large) {
+        width: 100% !important;
+      }
+    }
+
+    .colR-1-of-2 {
+      width: calc((100% - #{$gutter-horizontal}) / 2);
+    }
+
+    &--title {
+      font-weight: 700;
+      font-size: 4rem;
+      text-decoration: none;
+      color: $first-color;
+
+      &:hover {
+        color: $second-color;
+      }
+    }
+
+    &--image {
+      width: 100%;
+      height: 100%;
+    }
+
+    &--ingredients {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    &--list {
+      margin-left: 3rem;
+      font-size: 2rem;
+    }
+  }
+
+  &__procedure-container {
+    max-width: 80rem;
+    margin: 0 auto;
+
+    @include respond(phone-large) {
+      padding: 0 4rem;
+    }
+
+    &--steps {
+      margin-left: 2rem;
+      font-size: 2rem;
+    }
+
+    &--text {
+      font-weight: 400;
+      font-size: 4rem;
+    }
+
+    &::after {
+      content: "";
+      margin: 0 auto;
+      height: 0.2rem;
+      width: 10rem;
+      background-color: $first-color;
+      display: block;
+      margin-top: 4rem;
+    }
+  }
+}

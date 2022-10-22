@@ -1,0 +1,47 @@
+.btn {
+  text-decoration: none;
+  color: $light-color;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem;
+  border: 0.2rem solid $light-color;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+
+  @include respond(laptop-small) {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin-top: 1.6rem;
+  }
+
+  @include respond(tablet) {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+
+  @include respond(phone-large) {
+    font-size: 1.2rem;
+  }
+
+  @include respond(phone-large) {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+}
+
+.btn-full {
+  text-decoration: none;
+  color: $light-color;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem;
+  border: 0.2rem solid $second-color;
+  background-color: $second-color;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+
+  @include respond(phone-large) {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+}

@@ -1,0 +1,43 @@
+.u__center--text {
+  text-align: center;
+}
+
+.u__marginBottom--large {
+  margin-bottom: 2rem;
+
+  @include respond(laptop-small) {
+    margin-bottom: 1.8rem;
+  }
+
+  @include respond(tablet) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.u__marginBottom--medium {
+  margin-bottom: 1.5rem;
+
+  @include respond(laptop-small) {
+    margin-bottom: 1.3rem;
+  }
+}
+
+.u__marginBottom--small {
+  margin-bottom: 0.5rem;
+
+  @include respond(laptop-small) {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.u__marginTop--large {
+  margin-top: 2rem;
+
+  @include respond(laptop-small) {
+    margin-top: 1.8rem;
+  }
+}
+
+.u__display--block {
+  display: block;
+}
