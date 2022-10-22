@@ -10,19 +10,19 @@ There is never been a better time to eat organic. Organic means working with nat
 
 Follow these instructions to run this project on your local machine for development and testing purposes.
 
-## Installing
+### Installing
 
 1. Clone the repo
 
-### `git clone https://github.com/baulagerwin/pastoral-farm.git`
+#### `git clone https://github.com/baulagerwin/pastoral-farm.git`
 
 2. Open index.html
 
-### `double click index.html`
+#### `double click index.html`
 
 3. Explore
 
-### `Enjoy!`
+#### `Enjoy!`
 
 ## Built With
 
