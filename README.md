@@ -2,7 +2,7 @@
 
 There is never been a better time to eat organic. Organic means working with nature. Order fresh and affordable vegetables online.
 
-[Pastoral Farm](https://pastoralfarm.netlify.com)
+[Pastoral Farm](https://pastoral-farm.netlify.app/)
 
 ## Getting Started
 
