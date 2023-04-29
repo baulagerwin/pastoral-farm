@@ -2,30 +2,32 @@
 
 There is never been a better time to eat organic. Organic means working with nature. Order fresh and affordable vegetables online.
 
-## Getting Started
+## Requirements
+
+- [Git](https://git-scm.com/) - Version Control System
+
+## Installation
 
 Follow these instructions to run this project on your local machine for development and testing purposes.
 
-### Installing
+1. Clone the repository.
 
-1. Clone the repo
+```bash
+  git clone https://github.com/baulagerwin/pastoral-farm.git
+```
 
-#### `git clone https://github.com/baulagerwin/pastoral-farm.git`
+2. Open its directory.
 
-2. Open index.html
+3. Double click index.html.
 
-#### `double click index.html`
-
-3. Explore
-
-#### `Enjoy!`
+4. Explore.
 
 ## Built With
 
-- Hypertext Markup Language(HTML)
-- Syntactically Awesome Stylesheet(SASS)
+- HyperText Markup Language (HTML)
+- Syntactically Awesome Stylesheet (SASS)
 
-## Acknowledgement
+## Acknowledgements
 
-- [Ionicons](https://ionicons.com) - Icons
-- [Barnsbury](https://wordpress.com/theme/barnsbury) - Design
+- [Ionicons](https://ionic.io/ionicons) - Icons used
+- [Barnsbury](https://wordpress.com/theme/barnsbury) - Design Inspiration
