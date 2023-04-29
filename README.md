@@ -4,6 +4,8 @@ There is never been a better time to eat organic. Organic means working with nat
 
 ## Requirements
 
+Install the following requirements first before proceeding.
+
 - [Git](https://git-scm.com/) - Version Control System
 
 ## Installation
