@@ -2,6 +2,10 @@
 
 There is never been a better time to eat organic. Organic means working with nature. Order fresh and affordable vegetables online.
 
+## Preview
+
+![Pastoral Farm](pastoral-farm.png)
+
 ## Requirements
 
 Install the following requirements first before proceeding.
